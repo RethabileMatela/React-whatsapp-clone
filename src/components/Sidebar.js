@@ -2,11 +2,12 @@ import React from "react";
 import TollIcon from '@mui/icons-material/Toll';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import "./Sidebar.css";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div className="sidebar-header"></div>
+      <div className="sidebar-header">
       <div className="sidebar-header-image">
         <img src="./user.png" alt="" />
       </div>
@@ -14,7 +15,7 @@ function Sidebar() {
         <TollIcon/>
         <InsertCommentIcon/>
         <MoreVertIcon/>
-
+        </div>
       </div>
     </div>
   );
